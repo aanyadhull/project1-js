@@ -1,0 +1,320 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #400584;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+}
+.box1{
+    top: 34px;
+margin-left: 90px;
+width: 204px;
+height: 77px;
+/* UI Properties */
+background: transparent url('clock_logo.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+.box2{
+   margin-top: 20px;
+   margin-left: 90px;
+width: 450px;
+height: 270px;
+/* UI Properties */
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ededed);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+}
+
+img{
+    top: 169px;
+left: 149px;
+width: 34px;
+height: 34px;
+/* UI Properties */
+background: transparent url('img/wake_up.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#text1{
+    /* Layout Properties */
+top: 174px;
+margin-left: 50px;
+margin-right: 80px;
+width: 141px;
+height: 23px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3d087b);
+text-align: left;
+font: normal normal normal 18px/28px Manrope;
+letter-spacing: 0px;
+color: #3D087B;
+opacity: 1;
+}
+#text2{
+    /* Layout Properties */
+top: 174px;
+margin-left: 65px;
+margin-right: 80px;
+width: 141px;
+height: 23px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3d087b);
+text-align: left;
+font: normal normal normal 18px/28px Manrope;
+letter-spacing: 0px;
+color: #3D087B;
+opacity: 1;
+}
+#text3{
+    /* Layout Properties */
+top: 174px;
+margin-left: 75px;
+margin-right: 80px;
+width: 141px;
+height: 23px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3d087b);
+text-align: left;
+font: normal normal normal 18px/28px Manrope;
+letter-spacing: 0px;
+color: #3D087B;
+opacity: 1;
+}
+#text4{
+    /* Layout Properties */
+top: 174px;
+margin-left: 65px;
+margin-right: 80px;
+width: 141px;
+height: 23px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3d087b);
+text-align: left;
+font: normal normal normal 18px/28px Manrope;
+letter-spacing: 0px;
+color: #3D087B;
+opacity: 1;
+}
+
+.box3{
+    width:450px;
+    height: 90px;
+    background-color: #8E53F0;
+    position: relative;
+   margin-left:90px;
+   margin-top: 20px;
+    border-radius: 10px;
+
+   }
+   p{
+    top:5px;
+    width:400px;
+    height: 40px;
+    text-align: left;
+    font: normal normal 900 27px/34px Bauhaus Hv BT;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    background-color: none;
+    left: 10px;
+   }
+   .box4{
+    width:20%;
+    height: 50px;
+    background-image: linear-gradient(to right , #6E54EC, #CB52F8,#FC5EFF,#F1A7C5);
+    position: absolute;
+   margin-left: 90px;
+   margin-top: 560px;
+    border-radius: 5px;
+    transition: transform 0.6s;
+    
+    font: normal normal 900 25px/40px Bauhau;
+    color: white;
+    text-align: center;
+    align-items: center;
+   }
+   
+   .box4:hover {
+    background-image: linear-gradient(to right , #F1A7C5 ,#FC5EFF,#CB52F8,#6E54EC);
+    font-size: 0;
+  }
+  
+.box4:hover:after{
+    content: attr(data-hover);
+    text-align: center;
+    font: normal normal 900 25px/40px Bauhaus Hv BT;
+    color: white;
+    
+}
+   h2{
+    color: white;
+    text-align: center;
+    margin-top:10px;
+   }
+.box5{
+    top: 35px;
+left: 766px;
+width: 416px;
+height: 125px;
+/* UI Properties */
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 0.71;
+position: absolute;
+}
+.box6{
+    top: 45px;
+left: 785px;
+width: 379px;
+height: 125px;
+/* UI Properties */
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 0.22;
+position: absolute;
+
+}
+
+   
+.box7{
+    position: absolute;
+    top: 25px;
+    left: 706px;
+    width: 536px;
+    height: 120px;  
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+
+ }
+
+.a3{
+   width:480px;
+   height: 70px;
+   /* background-color: red; */
+   margin-top: 15px;
+   margin-left: 25px;
+}
+.b1{
+    height: 70px;
+    width: 70px;
+    background-image: url(timeline.png);
+    margin-left: 80px;
+    float: left;
+}
+.d1{
+    height: 70px;
+    width: 10px;
+    color: #8A11BF;
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.c1{
+    margin-top: 10px;
+    height: 30px;
+    width: 60px;
+    /* background-color: white; */
+    text-align: center;
+    color: #8A11BF;
+    font-weight: bold;
+    font-size: 25px;
+}
+.c2{
+    margin-top: 0px;
+    height: 30px;
+    width: 60px;
+    /* background-color: white; */
+    text-align: center;
+    color: #8A11BF;
+}
+.c3{
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 30px;
+    height: 30px;
+    width: 60px;
+    /* background-color: white; */
+    text-align: center;
+    color: white;
+}
+.b2{
+    height: 70px;
+    width: 70px;
+    background-image: url(timeline.png);
+    float: left;
+    margin-left: 10px;
+}
+.b3{
+    height: 70px;
+    width: 70px;
+    background-image: url(timeline.png);
+    float: left;
+    margin-left: 10px;
+}
+
+.b4{
+    float: left;
+    height: 70px;
+    width: 70px;
+    background-image: url(AM_svg.png);
+    margin-left: 10px;
+}
+h2{
+   
+    width: 492px;
+    height: 38px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+    font: normal normal 900 25px/40px Bauhaus Hv BT;
+    color: #8E53F0;
+    text-transform: uppercase;
+    opacity: 1;
+ 
+}
+.box8{
+    top: 180px;
+left: 706px;
+width: 536px;
+height: 90px;
+/* UI Properties */
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ededed);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+position: absolute;
+}
+.box9{
+    top: 280px;
+left: 707px;
+width: 536px;
+height: 310px;
+/* UI Properties */
+background: transparent url('Component.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+position: absolute;
+}
